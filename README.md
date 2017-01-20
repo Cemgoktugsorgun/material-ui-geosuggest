@@ -4,7 +4,7 @@ A basic material-ui textfield autosuggest for the Google Maps Places API.
 
 ## Requirements
 
-You need to include "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places" script to your project at some point either by using:
+You need to include `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places` script to your project at some point either by using:
 
 1. `<script>` tag
 2. External script loader like [react-load-script](https://github.com/blueberryapps/react-load-script/)
