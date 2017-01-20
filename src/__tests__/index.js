@@ -13,3 +13,11 @@ describe('Shallow rendering', () => {
         expect(wrapper.find(<TextField />));
     });
 });
+
+describe('Static rendering', () => {
+
+});
+
+describe('Full rendering', () => {
+
+});
