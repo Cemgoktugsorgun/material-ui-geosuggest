@@ -9,6 +9,8 @@ You need to include "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HE
 1. `<script>` tag
 2. External script loader like [react-load-script](https://github.com/blueberryapps/react-load-script/)
 
+Ps: Google Map API key can be obtained by following the instructions on [Maps Javascript API](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
 ## Usage
 
 ```
