@@ -1,4 +1,4 @@
-# React Geosuggest
+# Material UI Geosuggest
 
 A basic material-ui textfield autosuggest for the Google Maps Places API.
 
