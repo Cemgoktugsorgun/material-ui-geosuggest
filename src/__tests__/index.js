@@ -19,5 +19,5 @@ describe('Static rendering', () => {
 });
 
 describe('Full rendering', () => {
-
+    
 });
