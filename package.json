@@ -1,6 +1,6 @@
 {
   "name": "material-ui-geosuggest",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A geosuggest text field for material-ui",
   "repository": {
     "type": "git",
