@@ -16,7 +16,10 @@
     "react-component",
     "react",
     "material-ui",
-    "geosuggest"
+    "geosuggest",
+    "material ui",
+    "places",
+    "autosuggest",
   ],
   "options": {
     "mocha": "--require scripts/mocha_runner src/**/__tests__/**/*.js"
