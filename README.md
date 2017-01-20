@@ -2,6 +2,12 @@
 
 A basic material-ui textfield autosuggest for the Google Maps Places API.
 
+## Installation
+
+The package can be installed by using npm:
+
+`npm install material-ui-geosuggest --save`
+
 ## Requirements
 
 You need to include `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places` script to your project at some point either by using:
