@@ -10,7 +10,10 @@ class MuiGeoSuggest extends Component {
 
     componentDidMount() {
         if (typeof window.google !== 'undefined' && typeof window.google.maps !== 'undefined') {
-            this.apiObj = new window.google.maps.places.Autocomplete(document.getElementsByName(this.props.name)[0]);
+
+            const inputElement = document.getElementsByName(this.props.name)[0];
+
+            this.apiObj = new window.google.maps.places.Autocomplete(inputElement, this.props.options);
 
             this.apiObj.addListener('place_changed', () => {
                 this.onPlaceChange(this.apiObj.getPlace());
@@ -46,6 +49,7 @@ MuiGeoSuggest.propTypes = {
     onPlaceChange: PropTypes.func,
     floatingLabelText: PropTypes.string,
     hintText: PropTypes.string,
+    options: PropTypes.shape({}),
 };
 
 MuiGeoSuggest.defaultProps = {
@@ -53,6 +57,7 @@ MuiGeoSuggest.defaultProps = {
     onPlaceChange: () => {},
     floatingLabelText: '',
     hintText: '',
+    options: {},
 };
 
 export default MuiGeoSuggest;
