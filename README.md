@@ -29,7 +29,11 @@ Ps: Google Map API key can be obtained by following the instructions on [Maps Ja
       return (
         <div className="App">
           <MuiThemeProvider>
-            <MuiGeoSuggest />
+            <MuiGeoSuggest options={{
+                types: ['(cities)'],
+                componentRestrictions: {country: "us"}
+              }}
+            />
           </MuiThemeProvider>
         </div>
       );
@@ -39,6 +43,14 @@ Ps: Google Map API key can be obtained by following the instructions on [Maps Ja
   export default App;
 
 ```
+### Properties
+
+#### options(object AutocompleteOptions)
+
+The property which will be passed to Autocomplete constructor as options. Detailed explanation of Autocomplete options
+
+can be found at [Google-Map AutocompleteOptions](https://developers.google.com/maps/documentation/javascript/reference#AutocompleteOptions)
+
 ### Methods
 
 #### onPlaceChange(object PlaceResult)
