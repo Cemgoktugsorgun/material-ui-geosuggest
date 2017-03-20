@@ -48,7 +48,6 @@ Ps: Google Map API key can be obtained by following the instructions on [Maps Ja
 #### options(object AutocompleteOptions)
 
 The property which will be passed to Autocomplete constructor as options. Detailed explanation of Autocomplete options
-
 can be found at [Google-Map AutocompleteOptions](https://developers.google.com/maps/documentation/javascript/reference#AutocompleteOptions)
 
 ### Methods
