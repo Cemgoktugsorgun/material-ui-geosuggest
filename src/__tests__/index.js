@@ -10,7 +10,7 @@ import MuiGeoSuggest from '../index';
 describe('Shallow rendering', () => {
     it('should render a textfield', () => {
         const wrapper = shallow(<MuiGeoSuggest />);
-        expect(wrapper.find(<TextField />));
+        expect(wrapper.find(TextField)).to.have.length(1);
     });
 });
 
@@ -19,5 +19,5 @@ describe('Static rendering', () => {
 });
 
 describe('Full rendering', () => {
-    
+
 });
