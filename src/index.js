@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import TextField from 'material-ui/TextField';
 
 class MuiGeoSuggest extends Component {
@@ -25,7 +26,6 @@ class MuiGeoSuggest extends Component {
 
     render() {
         const {
-            options,
             onPlaceChange,
             ...props,
         } = this.props;
