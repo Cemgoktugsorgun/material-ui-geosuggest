@@ -26,7 +26,6 @@ class MuiGeoSuggest extends Component {
 
     render() {
         const {
-            options,
             onPlaceChange,
             ...props,
         } = this.props;
